@@ -1,0 +1,20 @@
+aside.logo{
+    background-color: var(--bg-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+aside.logo img{
+    padding: 0px 15px;
+    /*determina que a imagem só pode ocupar 100% da sua área*/
+    width: 100%;
+}
+
+@media(max-width: 576px){
+    aside.logo img {
+        width: 350px;
+    }
+}
